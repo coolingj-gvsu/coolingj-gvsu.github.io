@@ -10,6 +10,10 @@
 
 I received my Bachelor's in Computer Science from Grand Valley State University in 2025. I am currently pursuing my Master's in Artificial Intellegence. I currently work as a Data Analyst for a local steel supply company. I have experience using Python, C#, PHP, C, and JavaScript. I also have experience utilizing IIS, Azure, Git, and Power BI. 
 
-## Meme
+## Term Project — Internal Reporting Framework
 
-![A link to a picture of my favorite meme](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsi1hl5_RupnnjTlcERPydA-EZbdHMworB53hwr66tnw&s=10)
+For CIS641, I'm building a reusable internal reporting framework rather than a single fixed purpose application. The idea came out of a real issue that I have seen.  There many variations of reports that are built using different tech stacks that are using a single data source. This leads to misaligned reports on the same subject and nobody knowing which report is correct. Instead, this framework provides role-based access control and a modern web user interface that a developer can plug their own datasets and users into to quickly stand up and publish new reports.
+
+The scope is deliberately kept tight for a one-person, one semester build. The framework handles an authentication simulation (a "View As" switcher), permission-gated report viewing, and PDF export. It explicitly does not include automated scheduled report delivery, live database integration, or a UI for authoring new reports. Those would be the next steps for improvement of this project. 
+
+- [Project repository](https://coolingj-gvsu.github.io/Spaghetti/)
